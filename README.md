@@ -70,7 +70,7 @@ Track your learning milestones and achievements through our intuitive dashboard.
 Join our community of learners and tutors to exchange tips, ideas, and experiences.  
 Need help? Reach out via:
 - **Email**: support@sismotutors.com  
-- **Phone**: +1 (800) 123-4567  
+- **Phone**:   
 - **Live Chat**: Available on our website.
 
 ---
