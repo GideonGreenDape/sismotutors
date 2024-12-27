@@ -10,7 +10,9 @@ module.exports = {
         ubuntu: ['Ubuntu','serif'] 
       },
       colors:{
-        'darkgreen':"#0B4C44"
+        'darkgreen':"#0B4C44",
+        'textdark': "#053C35",
+        'logogreen' :"#00BC70"
      },
     },
   },

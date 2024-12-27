@@ -9,7 +9,7 @@ import {
 
 function FooterDesktop() {
   return (
-    <footer className="px-[6px] h-screen  pt-[55px] pb-[30px] flex-col flex items-center gap-[39px] bg-darkgreen ">
+    <footer className="px-[6px] h-screen  pt-[85px] pb-[30px] flex-col flex items-center gap-[39px] bg-darkgreen ">
       <div className="w-screen px-[8%] ">
         <AboutSismoDesktop />
       </div>
@@ -18,8 +18,8 @@ function FooterDesktop() {
       </div>
       <div className="px-[8%] flex mt-[54px] w-full justify-between ">
         <SismoLinks />
-        <ContactSismo />
         <SimsoCourses />
+        <ContactSismo />
         <SismoPolicyDesktop />
       </div>
     </footer>

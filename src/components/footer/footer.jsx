@@ -14,7 +14,7 @@ function AboutSismoText() {
 
 function SismoMission() {
   return (
-    <p className="font-ubuntu text-[14px] text-center text-white ">
+    <p className="font-ubuntu text-[14px] min-[0px]:text-center min-[540px]:text-left text-white ">
       Our mission is to provide quality and personalized learning, equipping
       students with both academic knowledge and essential skills for the future. 
     </p>
