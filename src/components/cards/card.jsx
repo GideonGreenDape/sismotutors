@@ -68,6 +68,8 @@ function ContactTutor() {
   );
 }
 
+// for learners and student and guardian i made app.js px-[5%] pt-[30px]
+
 function LearnersandStudent() {
   return (
     <div className="flex-col flex gap-[32px] items-center ">
