@@ -12,7 +12,8 @@ module.exports = {
       colors:{
         'darkgreen':"#0B4C44",
         'textdark': "#053C35",
-        'logogreen' :"#00BC70"
+        'logogreen' :"#00BC70",
+        'textblue': '#274CDC',
      },
     },
   },

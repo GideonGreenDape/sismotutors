@@ -66,3 +66,6 @@ function JoinSismoTutor() {
         </div>
     )
 }
+
+
+export {JoinSismoTutor, WhySismoTemplates};
