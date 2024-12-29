@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'Navbackground': "url('./src/assets/navtemplate.svg')",
+      },
       fontFamily: {
         mont: ['Mont', 'sans-serif'],
         ubuntu: ['Ubuntu','serif'] 
