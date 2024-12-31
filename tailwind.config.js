@@ -17,6 +17,8 @@ module.exports = {
         'textdark': "#053C35",
         'logogreen' :"#00BC70",
         'textblue': '#274CDC',
+        'formcolor': '#A6A9AC',
+        'formblack': '#50565A',
      },
     },
   },
