@@ -3,10 +3,12 @@ import { ContactTutor,LearnersandStudent,ParentandGuardian,TeacherandSchool } fr
 import {HeaderMobile} from "./components/header/headermobile";
 import SignupAndSignIn from "./components/Forms/generalform";
 import FormforProfile from "./components/Forms/formforProfile";
+import CoursesForm from "./components/courses/courses";
+
 
 function App() {
   return (
-     <FormforProfile />
+     <CoursesForm />
   );
 }
 
