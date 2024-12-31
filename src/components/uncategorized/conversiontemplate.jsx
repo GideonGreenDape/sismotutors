@@ -51,4 +51,44 @@ function GettingHelp() {
   );
 }
 
-export { Conversion, GettingHelp };
+function SmallCards(props) {
+  return (
+    <div className="w-[152px] h-[36px] text-black text-[13px] flex items-center justify-center bg-white ">
+      {props.title}?
+    </div>
+  );
+}
+
+function ConversionTwo() {
+  return (
+    <div className="flex-col flex gap-[15px] w-fit ">
+      <p
+        className="font-ubuntu
+            font-bold text-[22px] leading-[22px]  text-white 
+            "
+      >
+        Tell Us Where You Need Help
+      </p>
+      <p className="font-ubuntu font-light text-[14px] w-[300px] ">
+        We offer each students a personalized support in order to consolidate
+        their learning and develop their study strategies.
+      </p>
+      <GeneralButton 
+      width={`130px`}
+      font={`ubuntu`}
+      height={`46px`}
+      radius={"2px"}
+      title={`Start Here`}
+      color={"white"}
+      textcolor={"logogreen"}
+      link={"/#"}
+      textsize={"14px"}
+      fontstyle={`font-bold`}
+      external={`px-[25px] py-[10px] self-center mt-[12px] `}
+      
+      />
+    </div>
+  );
+}
+
+export { Conversion, GettingHelp, ConversionTwo };

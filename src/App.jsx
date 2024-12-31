@@ -4,11 +4,11 @@ import {HeaderMobile} from "./components/header/headermobile";
 import SignupAndSignIn from "./components/Forms/generalform";
 import FormforProfile from "./components/Forms/formforProfile";
 import CoursesForm from "./components/courses/courses";
-import { GettingHelp } from "./components/uncategorized/conversiontemplate";
+import { GettingHelp, ConversionTwo } from "./components/uncategorized/conversiontemplate";
 
 function App() {
   return (
-     <GettingHelp />
+     <ConversionTwo />
   );
 }
 
