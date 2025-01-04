@@ -8,4 +8,11 @@
     font-weight: 400; /* Regular weight */
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Mont';
+    src: url('../src/assets/font/mont-light.ttf') format('ttf');
+    font-weight: 300; /* Regular weight */
+    font-style: normal;
+  }
   

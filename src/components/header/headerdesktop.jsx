@@ -1,0 +1,1 @@
+import sismoicon from "../../assets/icons/sismoicon.png";

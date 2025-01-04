@@ -1,5 +1,6 @@
 import tutorsimage from "../../assets/tutorsimage.png";
 import { GeneralButton } from "../Buttons/generalbuttontemplate";
+import Ellipse from "../../assets/icons/Ellipse.svg"
 
 function Conversion(props) {
   let headerstyle = `font-${props.font} 
@@ -89,6 +90,24 @@ function ConversionTwo() {
       />
     </div>
   );
+}
+
+
+function Tutors(props){
+  return(
+    <div className="w-[382px] h=[105px] flex px-[18px] py-[17px] gap-[25px] items-center  " >
+        <img className="w-[62px] h-[62px] block " src={props.image} alt="tutors imgae" />
+        <div className="flex-col flex w-[259px] h-[91px] gap-[-14px] " >
+              <p className="font-ubuntu font-bold text-[17px] leading-[43px] text-darkgreen ">{props.tutorsname} 
+                <span className="text-[13px] text-logogreen ">verified</span> </p>
+              <p className="font-mont text-black text-[15px] font-normal ">{props.areaOfSpecialization}</p>
+              <div className="flex items-center gap-1 w-[60px] ">
+                <img className="w-[9px] h-[9px] " src={Ellipse} alt="active icon" />
+                <p>{props.workmethod}</p>
+              </div>
+        </div>
+    </div>
+  )
 }
 
 export { Conversion, GettingHelp, ConversionTwo };
