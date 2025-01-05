@@ -21,7 +21,7 @@ module.exports = {
         'formblack': '#50565A',
         'ash':'#EEEEEE',
         'lightgreen': '#E5FFDD',
-        'headerash':'#D1D1D3',
+        'headerash':'#E8E8E9',
      },
     },
   },

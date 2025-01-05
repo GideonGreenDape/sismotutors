@@ -29,7 +29,7 @@ const SignupAndSignIn = ({redirectLink}) => {
       onSubmit={onSubmit}
     >
       {({ isSubmitting,touched,errors,values }) => ( 
-        <Form className="mt-[40px] ml-[40px] flex-col flex gap-[45px] items-center">
+        <Form className="flex-col flex gap-[45px] items-center">
           <div className="flex-col flex gap-[35px] ">
             <div>
             <Field  placeholder="Email"
