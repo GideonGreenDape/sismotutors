@@ -2,6 +2,8 @@ import React from "react";
 import { Formik, Form, Field, FieldArray } from "formik";
 import * as Yup from "yup";
 import { GeneralButton } from "../Buttons/generalbuttontemplate";
+import { Link } from "react-router-dom";
+
 
 const studyAreas = [
   { id: 1, name: "Jamb", courses: ["Physics", "Chemistry", "Biology","Mathematics"] },
@@ -130,7 +132,7 @@ const ExamPractice = () => {
             title={`submit`}
             color={"logogreen"}
             textcolor={"white"}
-            link={"/#"}
+            link={"/practicequestions"}
             textsize={"15px"}
             fontstyle={`font-semibold`}
             external={`px-[21px] py-[10px] self-center mt-[12px] `}

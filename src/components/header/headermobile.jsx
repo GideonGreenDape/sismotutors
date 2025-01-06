@@ -8,6 +8,7 @@ import linkedinicon from "../../assets/icons/linkedinicon.svg";
 import twittericon from "../../assets/icons/twittericon.svg";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 
 function HeaderMobile(props) {
@@ -89,21 +90,21 @@ function SideBar({ setSidebar }) {
       </div>
      <div className="flex flex-col gap-4 pt-[150px] " >
       <motion.ul className="flex-col pl-[38px] flex gap-[20px] ">
-        <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
-          Home
-        </motion.li>
-        <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
-          Hire a Tutor
-        </motion.li>
-        <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
-          Student Resources
-        </motion.li>
-        <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
-          Teacher Resources
-        </motion.li>
-        <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
-          Our Blog
-        </motion.li>
+      <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
+            <Link to="/signin">Home</Link>
+          </motion.li>
+          <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
+            <Link to="/signin">Hire a Tutor</Link>
+          </motion.li>
+          <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
+            <Link to="/signin">Student Resources</Link>
+          </motion.li>
+          <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
+            <Link to="/signin">Teacher Resources</Link>
+          </motion.li>
+          <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
+            <Link to="/signin">Our Blog</Link>
+          </motion.li>
         <motion.li variants={itemVariants} className="font-mont text-white text-[16px] font-normal">
           FAQS
         </motion.li>
@@ -117,7 +118,7 @@ function SideBar({ setSidebar }) {
         title={`Login`}
         color={"white"}
         textcolor={"darkgreen"}
-        link={"/#"}
+        link={"/signin"}
         textsize={"16px"}
         fontstyle={`font-normal`}
         external={`self-center px-[132px] py-[17px] mt-[50px] `}
@@ -125,7 +126,7 @@ function SideBar({ setSidebar }) {
 
       <p
         onClick={() => {
-          window.location.href = "/#";
+          window.location.href = "/signup";
         }}
         className="font-mont text-[13px] self-center mt-[25px]  text-white font-semibold cursor-pointer "
       >

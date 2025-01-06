@@ -1,5 +1,6 @@
 import sismoicon from "../../assets/icons/sismoicon.png";
 import { GeneralButton } from "../Buttons/generalbuttontemplate";
+import { Link } from "react-router-dom";
 
 function HeaderDesktop() {
   return (
@@ -15,20 +16,20 @@ function HeaderDesktop() {
       />
 
       <ul className="flex items-center min-[1000px]:gap-[20px]  min-[1200px]:gap-[40px]  ">
-        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer ">
-          Home
+      <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer">
+          <Link to="/">Home</Link>
         </li>
-        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer ">
-          Hire a Tutor
+        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer">
+          <Link to="/signin">Hire a Tutor</Link>
         </li>
-        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer ">
-          Student Resources{" "}
+        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer">
+          <Link to="/signin">Student Resources</Link>
         </li>
-        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer ">
-          Teacher Resources
+        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer">
+          <Link to="/signin">Teacher Resources</Link>
         </li>
-        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer ">
-          Our Blog{" "}
+        <li className="font-mont font-normal min-[1000px]:text-[12px] min-[1200px]:text-[14px] text-darkgreen cursor-pointer">
+          <Link to="/signin">Our Blog</Link>
         </li>
         <li>
           <GeneralButton
@@ -39,7 +40,7 @@ function HeaderDesktop() {
             title={`Sign In`}
             color={"logogreen"}
             textcolor={"white"}
-            link={"/#"}
+            link={"/signin"}
             textsize={"15px"}
             fontstyle={`font-bold`}
             external={`px-[5px] py-[15px] self-center`}

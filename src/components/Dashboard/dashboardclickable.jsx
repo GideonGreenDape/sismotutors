@@ -8,7 +8,7 @@ function Grades() {
   return (
     <div
       onClick={() => {
-        window.location.href = "/ ";
+        window.location.href = "/examprep";
       }}
       className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
     >
@@ -24,7 +24,7 @@ function VideoConference() {
   return (
     <div
       onClick={() => {
-        window.location.href = "/ ";
+        window.location.href = "/updatecourse ";
       }}
       className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
     >
@@ -44,7 +44,7 @@ function Bookshelve() {
   return (
     <div
       onClick={() => {
-        window.location.href = "/ ";
+        window.location.href = "/studyMaterial";
       }}
       className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
     >
@@ -64,7 +64,7 @@ function Assignement() {
   return (
     <div
       onClick={() => {
-        window.location.href = "/ ";
+        window.location.href = "/assignments";
       }}
       className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
     >
@@ -96,7 +96,7 @@ function GradesDesktop() {
         title={`Take a practice question`}
         color={"darkgreen"}
         textcolor={"white"}
-        link={"/#"}
+        link={"/examprep"}
         textsize={"14px"}
         fontstyle={`font-bold`}
         external={`px-[28px] py-[10px] self-center mb-[10px] `}
@@ -121,7 +121,7 @@ function VideoConferenceDesktop() {
         title={`Start class now`}
         color={"darkgreen"}
         textcolor={"white"}
-        link={"/#"}
+        link={"/updatecourse"}
         textsize={"14px"}
         fontstyle={`font-bold`}
         external={`px-[28px] py-[10px] self-center mb-[10px] `}
@@ -146,7 +146,7 @@ function BookshelveDesktop() {
         title={`Access our study material`}
         color={"darkgreen"}
         textcolor={"white"}
-        link={"/#"}
+        link={"/studyMaterial"}
         textsize={"14px"}
         fontstyle={`font-bold`}
         external={`px-[28px] py-[10px] self-center mb-[10px] `}
@@ -171,7 +171,7 @@ function AssignementDesktop() {
         title={`Submit Assignment`}
         color={"darkgreen"}
         textcolor={"white"}
-        link={"/#"}
+        link={"/assignments"}
         textsize={"14px"}
         fontstyle={`font-bold`}
         external={`px-[28px] py-[10px] self-center mb-[10px] `}

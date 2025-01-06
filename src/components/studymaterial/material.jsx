@@ -94,7 +94,7 @@ const StudyMaterial = () => {
             text-formblack
             "
                       >
-                        Select course/subject to get available resource
+                        Select subject to get available resource
                       </label>
                       <div className="flex items-center gap-[9px] ">
                         <Field
@@ -130,7 +130,7 @@ const StudyMaterial = () => {
             title={`submit`}
             color={"logogreen"}
             textcolor={"white"}
-            link={"/#"}
+            link={"/studyResource"}
             textsize={"15px"}
             fontstyle={`font-semibold`}
             external={`px-[21px] py-[10px] self-center mt-[12px] `}

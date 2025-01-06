@@ -154,7 +154,7 @@ const CoursesForm = () => {
             title={`submit`}
             color={"logogreen"}
             textcolor={"white"}
-            link={"/#"}
+            link={"/dashboard"}
             textsize={"15px"}
             fontstyle={`font-semibold`}
             external={`px-[21px] py-[10px] self-center mt-[12px] `}
