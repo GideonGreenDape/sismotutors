@@ -3,13 +3,13 @@ import locationimage from "../../assets/locationimage.png";
 import { GeneralButton } from "../Buttons/generalbuttontemplate";
 import thumbnail from "../../assets/thumbnail.png";
 
-function card1() {
+function Card1() {
   return (
-    <div className="flex-col flex gap-[30px] items-center">
-      <p className="self-start font-ubuntu font-medium text-[20px] text-textdark ">
+    <div className="flex-col flex gap-[20px] items-center">
+      <p className="self-start font-ubuntu font-bold text-[23px] text-textdark ">
         Bridging knowledge and skills
       </p>
-      <p className="w-[375px] font-mont text-[16px] font-normal text-logogreen text-left ">
+      <p className="w-[335px] min-[490px]:w-[390px] font-mont text-[14px] font-normal text-logogreen text-left ">
         We go beyond the classroom-equipping you with the knowledge and
         essential skills for the future.
       </p>
@@ -28,7 +28,7 @@ function card1() {
 function ContactTutor() {
   return (
     <div className="flex-col flex gap-[30px] items-center ">
-      <p className="font-ubuntu leading-[26px] font-medium text-[20px] ">
+      <p className="font-ubuntu font-bold w-[330px] min-[490px]:w-[390px] leading-[26px] text-[20px] ">
         Find the{" "}
         <span className="inline-block p-[0px] text-white text-center bg-logogreen w-[139px] h-[26px] ">
           perfect tutors
@@ -36,7 +36,7 @@ function ContactTutor() {
         for your learning needs with just a click
       </p>
 
-      <p className="font-mont leading-[22px] font-normal text-[14px] text-darkgreen text-left ">
+      <p className="font-mont w-[340px] min-[490px]:w-[390px] leading-[22px] font-normal text-[14px] text-darkgreen text-left ">
         Whether you’re seeking help in math, science, or you desire to learn a
         new skill or any other subjects, Sismo Tutors connects you with
         qualified experts ready to guide you to success. Start your journey to
@@ -61,7 +61,7 @@ function ContactTutor() {
         textcolor={`white`}
         link={"/#"}
         textsize={"14px"}
-        fontsyle={"medium"}
+        fontsyle={"bold"}
         external={`px-[11px] py-[10px] mt-[40px] `}
       />
     </div>
@@ -72,14 +72,14 @@ function ContactTutor() {
 
 function LearnersandStudent() {
   return (
-    <div className="flex-col flex gap-[32px] items-center ">
-      <p className="font-ubuntu self-center leading-[26px] w-[305px] font-medium text-[22px] ">
+    <div className="flex-col flex gap-[32px] ">
+      <p className="font-ubuntu leading-[26px] w-[335px] font-medium text-[22px] ">
         You can learn anything from our large
         <span className="w-[200px] h-[35px] inline-block p-[0px] text-white text-center bg-logogreen ">
           learning resource
         </span>
       </p>
-      <p className="font-mont leading-[22px] w-[305px] font-normal text-[14px] text-darkgreen text-left ">
+      <p className="font-mont leading-[22px] w-[335px]  min-[490px]:w-[390px] font-normal text-[14px] text-darkgreen text-left ">
         Develop a strong, comprehensive understanding in Sciences, Technology,
         Engineering, Mathematics and beyond.
       </p>
@@ -107,14 +107,14 @@ function LearnersandStudent() {
 
 function TeacherandSchool() {
   return (
-    <div className="flex-col flex gap-[25px] items-center ">
-      <p className="font-ubuntu self-center leading-[26px] w-[305px] font-medium text-[22px] ">
+    <div className="flex-col flex gap-[25px] ">
+      <p className="font-ubuntu self-center leading-[26px] w-[335px] min-[490px]:w-[390px] font-medium text-[22px] ">
         Transform your classroom and captivate every student with the right{" "}
         <span className="w-[159px] h-[32px] inline-block p-[0px] text-white text-center bg-logogreen ">
           tools & support
         </span>
       </p>
-      <p className="font-mont leading-[22px] w-[305px] font-normal text-[14px] text-darkgreen text-left ">
+      <p className="font-mont leading-[22px] w-[335px] font-normal text-[14px] text-darkgreen text-left ">
         From lesson notes, to learning activities and lesson plans we equip you
         with the resources to create impactful experiences.
       </p>
@@ -137,15 +137,15 @@ function TeacherandSchool() {
 
 function ParentandGuardian() {
   return (
-    <div className="flex-col flex gap-[25px] items-center ">
-      <p className="font-ubuntu self-center leading-[26px] w-[315px] font-medium text-[22px] ">
+    <div className="flex-col flex gap-[25px] ">
+      <p className="font-ubuntu  leading-[26px] w-[315px] font-medium text-[22px] ">
         Get{" "}
         <span className="w-[189px] h-[32px] inline-block p-[0px] text-white text-center bg-logogreen ">
           tips and material
         </span>{" "}
         to support your child learning and growth.
       </p>
-      <p className="font-mont leading-[22px] w-[305px] font-normal text-[14px] text-darkgreen text-left ">
+      <p className="font-mont leading-[22px] w-[305px] min-[490px]:w-[390px] font-normal text-[14px] text-darkgreen text-left ">
         We give you resources to help your child development in both academic
         and essential life skills
       </p>
@@ -171,4 +171,5 @@ export {
   LearnersandStudent,
   TeacherandSchool,
   ParentandGuardian,
+  Card1
 };

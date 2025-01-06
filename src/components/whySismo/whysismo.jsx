@@ -1,4 +1,8 @@
+import { GeneralButton } from "../Buttons/generalbuttontemplate";
+
 // Template for WhySismo component
+
+
 function WhySismoTemplates(props) {
   return (
     <div className="flex-col flex items-center gap-[39px] w-[347px] py-[34px] px-0 ">
@@ -11,7 +15,7 @@ function WhySismoTemplates(props) {
         src={props.image}
         alt={props.imageTitle}
       />
-      <p className="font-ubuntu text-center font-medium leading-[22px] text-[20px] ">
+      <p className="font-ubuntu text-center font-bold leading-[22px] text-[20px] ">
         {props.title}
       </p>
       <p className="font-mont leading-[22px] font-normal text-[14px] text-center ">

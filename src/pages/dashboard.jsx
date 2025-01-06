@@ -77,13 +77,13 @@ function MobileSignIn() {
     return(
         <>
         <MainHeader />
-        <div className="flex-col flex items-center overflow-x-hidden gap-5 mt-[90px] ">
+        <div className="flex-col flex items-center overflow-x-hidden gap-5 mt-[99px] ">
         <DashboardHeader />
-        <div className=" flex w-screen px-[22%] justify-between items-center ">
+        <div className=" flex w-screen mt-[20px] px-[22%] justify-between items-center ">
             <Grades />
             <VideoConference />
         </div>
-        <div className="flex w-screen mt-9 px-[22%] justify-between items-center " >
+        <div className="flex w-screen mt-10 px-[22%] justify-between items-center " >
         <Bookshelve />
         <Assignement />
         </div>
@@ -97,7 +97,7 @@ function MobileSignIn() {
             link={"/#"}
             textsize={"15px"}
             fontstyle={`font-semibold`}
-            external={`px-[21px] py-[10px] self-center mt-[29px] mb-[90px] `}
+            external={`px-[21px] py-[10px] self-center mt-[37px] mb-[90px] `}
           />
         </div>
        </>

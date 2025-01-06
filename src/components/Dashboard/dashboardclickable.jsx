@@ -10,7 +10,7 @@ function Grades() {
       onClick={() => {
         window.location.href = "/examprep";
       }}
-      className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
+      className="flex-col cursor-pointer flex w-fit p-[5px] items-center gap-[15px] "
     >
       <img className=" w-[50px] h-[50px] " src={grades} alt="grades icon" />
       <p className="font-mont font-bold leading-[20px] text-[13px] text-darkgreen ">
@@ -26,7 +26,7 @@ function VideoConference() {
       onClick={() => {
         window.location.href = "/updatecourse ";
       }}
-      className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
+      className="flex-col cursor-pointer flex w-fit p-[5px] items-center gap-[15px] "
     >
       <img
         className=" w-[50px] h-[50px] "
@@ -46,7 +46,7 @@ function Bookshelve() {
       onClick={() => {
         window.location.href = "/studyMaterial";
       }}
-      className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
+      className="flex-col cursor-pointer flex w-fit p-[5px] items-center gap-[15px] "
     >
       <img
         className=" w-[50px] h-[50px] "
@@ -66,7 +66,7 @@ function Assignement() {
       onClick={() => {
         window.location.href = "/assignments";
       }}
-      className="flex-col flex w-fit p-[5px] items-center gap-[15px] "
+      className="flex-col flex cursor-pointer w-fit p-[5px] items-center gap-[15px] "
     >
       <img
         className=" w-[50px] h-[50px] "
