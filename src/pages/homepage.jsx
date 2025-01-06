@@ -16,7 +16,7 @@ import {JoinSismoTutor, WhySismoTemplates} from "../components/whySismo/whysismo
 import { Conversion, GettingHelp, ConversionTwo } from "../components/uncategorized/conversiontemplate";
 import Footer from "../components/footer/footerTemplate";
 
-function SignUpPage() {
+function Homepage() {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1000);
 
   useEffect(() => {
@@ -63,4 +63,4 @@ function DesktopAndTabSignUp() {
 }
 
 
-export default SignUpPage
+export default Homepage
