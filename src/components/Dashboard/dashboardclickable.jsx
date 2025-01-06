@@ -84,7 +84,7 @@ function GradesDesktop() {
   return (
     <div className="flex-col flex gap-[47px] w-fit px-[13px] py-[18px] border-[1px] border-logogreen items-center ">
       <Grades />
-      <p className="m-0 font-ubuntu text-center w-[289px] font-regular text-[14px] ">
+      <p className="m-0 font-ubuntu text-center w-[230px] font-regular text-[14px] ">
         Unlock Your full potential and Ace your desired exam with our
         comprehensive Past Questions and Effective preparation strategies
       </p>
@@ -109,7 +109,7 @@ function VideoConferenceDesktop() {
   return (
     <div className="flex-col flex gap-[47px] w-fit px-[13px] py-[18px] border-[1px] border-logogreen items-center ">
       <VideoConference />
-      <p className="m-0 font-ubuntu text-center w-[289px] font-regular text-[14px] ">
+      <p className="m-0 font-ubuntu text-center w-[230px] font-regular text-[14px] ">
         Take Live Online Classes wih our expert tutors via zoom and achieve
         academic success!
       </p>
@@ -134,7 +134,7 @@ function BookshelveDesktop() {
   return (
     <div className="flex-col flex gap-[47px] w-fit px-[13px] py-[18px] border-[1px] border-logogreen items-center ">
       <Bookshelve />
-      <p className="m-0 font-ubuntu text-center w-[289px] font-regular text-[14px] ">
+      <p className="m-0 font-ubuntu text-center w-[230px] font-regular text-[14px] ">
         Access comprehensive study materials, Notes, and Resources to boost your
         Academic Performance!
       </p>
@@ -157,9 +157,9 @@ function BookshelveDesktop() {
 
 function AssignementDesktop() {
   return (
-    <div className="flex-col flex gap-[47px] w-fit px-[13px] py-[18px] border-[1px] border-logogreen items-center ">
+    <div className="flex-col flex gap-[47px] w-fit px-[4px] py-[18px] border-[1px] border-logogreen items-center ">
       <Assignement />
-      <p className="m-0 font-ubuntu text-center w-[289px] font-regular text-[14px] ">
+      <p className="m-0 font-ubuntu text-center w-[230px] font-regular text-[14px] ">
         Submit Your Assignments securely and Get Feedback from your Tutors to
         Enhance Your Learning!
       </p>

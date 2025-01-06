@@ -12,18 +12,18 @@ import { motion } from "framer-motion";
 
 function HeaderMobile(props) {
   const [sidebar, setSidebar] = useState(false);
-  const background=`relative ${props.bgcolor} `
+  const background=`w-screen top-0  fixed z-30 ${props.bgcolor} `
   return (
     <header style={{
       display: "flex",
         flexDirection: "column",
         overflowY: "hidden",
         alignItems:"center",
-        backgroundColor: props.bgcolor
+        backgroundColor: "#E8E8E9 "
     }} className={background} >
       <div className="w-full mt-[21.5px] mb-[21.5px] 
       px-[5.66%] flex justify-between 
-      items-center fixed z-30">
+      items-center ">
       <img
         onClick={(e) => {
           e.stopPropagation();
@@ -72,7 +72,7 @@ function SideBar({ setSidebar }) {
       initial="hidden"
       animate="visible"
       variants={listVariants}
-      className="self-end left-0 m-0 top-0 z-50 flex-col flex overflow-x-hidden gap-4 relative bg-no-repeat bg-logogreen w-screen h-screen"
+      className="self-end left-0 m-0 top-[-78px] z-50 flex-col flex overflow-x-hidden gap-4 relative bg-no-repeat bg-logogreen w-screen h-screen"
     >
       <div onClick={(e)=>{
            e.stopPropagation();

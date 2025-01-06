@@ -3,7 +3,8 @@ import mission from "../../assets/mission.svg";
 
 function DashboardHeader() {
   return (
-    <nav className="flex items-center w-fit pl-[28px] pr-[30px] pt-[26px] pb-[30px]  bg-darkgreen ">
+    <div className="w-screen px-[22px] ">
+      <nav className="flex items-center  w-full pt-[26px] pb-[30px]  bg-darkgreen ">
       <div className="flex w-[326px] gap-[50px] p-0 m-0">
         {/*The image here will be gotten from the server so the api to fectch the image should be added to the src */}
         <img
@@ -23,13 +24,15 @@ function DashboardHeader() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
 
 
 function DashboardHeaderDesktop() {
     return(
-        <nav className="flex w-screen pl-[28px] h-[147px] pr-[64px] items-center justify-between   bg-darkgreen ">
+        <div className="w-screen px-[50px] ">
+          <nav className="flex  w-full pl-[28px] h-[147px] pr-[64px] items-center justify-between bg-darkgreen ">
       <div className="flex w-[326px] gap-[50px] p-0 m-0">
         {/*The image here will be gotten from the server so the api to fectch the image should be added to the src */}
         <img
@@ -52,6 +55,7 @@ function DashboardHeaderDesktop() {
         <img src={mission} alt="sismo vision" />
       </div>
     </nav>
+        </div>
     )
 }
 

@@ -53,7 +53,7 @@ const CoursesForm = () => {
       onSubmit={onSubmit}
     >
       {({ values, errors, touched }) => (
-        <Form className="flex-col flex items-center mt-[40px] gap-[25px] ">
+        <Form className="flex-col flex items-center gap-[25px] ">
           <div className="flex flex-col gap-[12px] ">
             <label
               htmlFor="studyArea"
@@ -85,7 +85,7 @@ const CoursesForm = () => {
 
           <FieldArray name="courses">
             {({ push, remove }) => (
-              <div className="flex flex-col gap-[11px] ">
+              <div className="flex-col ml-[20px] flex items-center gap-[11px] ">
                 {values.courses.map((course, index) => (
                   <div key={index} className="items-center ">
                     <div className="flex-col flex gap-[12px] ">
@@ -105,7 +105,7 @@ const CoursesForm = () => {
                           name={`courses[${index}].course`}
                           className="input border-[1px] font-ubuntu text-[14px]
              font-light text-formcolor  rounded-[5px] 
-            px-[15px] border-formcolor w-[245px] h-[44px] appearance-none "
+            px-[15px] border-formcolor w-[270px] h-[44px] appearance-none "
                         >
                           {getCoursesForSelectedArea(values.studyArea).map(
                             (course, idx) => (

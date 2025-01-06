@@ -3,7 +3,7 @@ import { GeneralButton } from "../Buttons/generalbuttontemplate";
 
 function HeaderDesktop() {
   return (
-    <header className="flex items-center mt-[20px] px-[5%] justify-between ">
+    <header className="fixed z-30 top-[-20px] w-screen py-[15px] bg-headerash flex items-center mt-[20px] px-[5%] justify-between ">
       <img
         onClick={(e) => {
           e.stopPropagation();

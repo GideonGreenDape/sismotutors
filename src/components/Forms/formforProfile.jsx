@@ -49,7 +49,7 @@ const FormforProfile = ({redirectLink}) => {
         onSubmit={onSubmit}
       >
         {({ isSubmitting, touched, errors }) => (
-          <Form className="flex-col flex gap-[30px] min-[600px]:gap-[38px] mt-[25px] items-center ">
+          <Form className="flex-col flex gap-[30px] min-[600px]:gap-[38px] items-center ">
             <div className='min-[600px]:flex gap-[25px]'>
             <div className='flex-col flex gap-[11px] '>
               <label htmlFor="firstname" className="font-ubuntu font-medium text-formblack text-[14px] " >First Name <span className='text-red-400'>*</span> </label>
@@ -89,7 +89,7 @@ const FormforProfile = ({redirectLink}) => {
               )}
             </div>
   
-            <div className='flex gap-[25px] min-[600px]:gap-[10px] '>
+            <div className='flex  gap-[25px] min-[600px]:gap-[10px] '>
             <div className='flex-col flex gap-[11px] '>
               <label htmlFor="dateOfBirth" className="font-ubuntu font-medium text-formblack text-[14px] " >Date of Birth <span className='text-red-400'>*</span> </label>
               <Field type="date" name="dateOfBirth" className="input border-[1px] font-ubuntu text-[14px]

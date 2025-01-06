@@ -9,7 +9,7 @@ function QuestionTemplate(props) {
 
   return (
     <div className="flex-col flex items-start gap-[5px] ">
-      <p className="font-mont font-light mb-[5px] text-[14px]">
+      <p className="font-mont w-fit font-light mb-[5px] text-[14px]">
         {props.question}
       </p>
       {props.choices.map((item, index) => {

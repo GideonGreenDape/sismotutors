@@ -1,7 +1,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-const SignupAndSignIn = ({redirectLink}) => {
+const SignupAndSignIn = ({redirectLink,color}) => {
   const initialValues = {
     email: "",
     password: "",
@@ -35,7 +35,7 @@ const SignupAndSignIn = ({redirectLink}) => {
             <Field  placeholder="Email"
             className="border-[1px] font-ubuntu text-[14px]
              font-light text-formblack  rounded-[5px] 
-            px-[15px] border-formcolor w-[310px] h-[45px] "
+            px-[15px] border-formcolor min-[300px]:w-[310px] min-[1000px]:w-[290px] h-[45px] "
             type="email" name="email" />
              {touched.email && errors.email && (
               <p className="ml-[5px] mt-[12px] font-ubuntu text-[12px] text-formcolor font-medium ">{errors.email}</p>
@@ -45,7 +45,7 @@ const SignupAndSignIn = ({redirectLink}) => {
             <Field placeholder="Password" 
             className="border-[1px] font-ubuntu text-[14px] 
             font-light text-formblack  rounded-[5px] 
-            px-[15px] border-formcolor w-[310px] h-[45px] "
+            px-[15px] border-formcolor min-[300px]:w-[310px] min-[1000px]:w-[290px] h-[45px] "
             type="password" name="password" />
             {touched.password && (
                   <ul className="ml-[5px] mt-[12px] flex-col flex gap-[2px] font-ubuntu text-[12px] w-[300px] ">
@@ -63,7 +63,10 @@ const SignupAndSignIn = ({redirectLink}) => {
               )}
             </div>
           </div>
-          <button type="submit" className="w-[236px] h-[53px] rounded-[3px] text-white font-ubuntu font-medium bg-logogreen " disabled={isSubmitting}>
+          <button type="submit" className={` min-[100px]:w-[236px] 
+          min-[1000px]:w-[290px] h-[53px] rounded-[3px]
+           text-white font-ubuntu 
+           font-medium bg-${color} `}  disabled={isSubmitting}>
             Submit
           </button>
         </Form>
